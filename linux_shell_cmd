@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Define the file path and content
+filepath="$/home/kali/Documents/test_file.txt"
+content="This is a test file for the task."
+
+# Create the file at the specified path, overwriting if it already exists
+echo "$content" > "$filepath"
